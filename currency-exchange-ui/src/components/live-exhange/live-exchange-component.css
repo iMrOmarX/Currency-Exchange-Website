@@ -1,0 +1,86 @@
+.live-exhange-section {
+    margin: 100px 100px 300px 100px;
+}
+
+.live-exchange-title {
+
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.table-header > th {
+    font-size: 18px;
+    text-align: center !important;
+    height: 80;
+}
+
+.currency-data-row > th {
+    padding: 5px;
+    font-size: 18px;
+    padding-left: 20px;
+    border: none !important;
+}
+.currency-data-row {
+    transition: left 0.7s;
+}
+
+table {
+    border: none !important;
+}
+th:not(.currecny-th-name) {
+    text-align: center;
+    font-size: 18px;
+}
+th {
+    width: 275px;
+}
+
+.currency-dropdown-btn {
+    width: 100% !important;
+    padding: 0 !important;
+}
+
+.add-new-currency-btn {
+    height: 40px;
+}
+
+.currency-data-field-in {
+    animation-name: fadeIn;
+    animation-duration: 2s;
+}
+
+.currency-data-field-out {
+    animation-name: fadeIn2;
+    animation-duration: 2s;
+
+}
+.remove-currency-btn {
+    border-radius: 50% !important;
+    background: red !important;
+    padding: 10px !important;
+    color: white !important;
+    
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn2 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+
